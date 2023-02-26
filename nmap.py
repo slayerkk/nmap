@@ -1,9 +1,6 @@
 import os
 os.system('clear')
-print("""
-─▀─ █▀▀▄ █▀▀ ▀▀█▀▀ █▀▀█ █── █▀▀█ █▀▀ █▀▀█ █▀▀█ 
-▀█▀ █──█ ▀▀█ ──█── █▄▄█ █── █▄▄█ █── █▄▄█ █──█ 
-▀▀▀ ▀──▀ ▀▀▀ ──▀── ▀──▀ ▀▀▀ ▀──▀ ▀▀▀ ▀──▀ ▀▀▀▀""")
+print("""instalação/atualizaçao""")
 os.system('sudo apt install nmap')
 os.system('pip install nmap')
 os.system('pkg install nmap')
