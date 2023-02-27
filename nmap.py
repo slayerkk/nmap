@@ -15,56 +15,28 @@ print('''
 ╚═╝░░╚══╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░''')
 os.system('nmap -h')
 print('')
+print('======================~(CY㉿LUGH!)~======================')
 print('')
-print('''1 – Listar as portas abertas em um host remoto, como o scanme.nmap.org:
+print('''O Nmap é uma ferramenta de exploração de redes de código aberto que permite aos usuários verificar a segurança de sistemas e redes. Algumas das melhores ferramentas do Nmap são:
 
-# nmap scanme.nmap.org
+1 - Host discovery (-sn): Esta opção permite descobrir hosts ativos em uma rede, sem executar uma varredura completa. Isso pode economizar muito tempo e recursos.
 
-2 – Detecção de Versão de Serviços
 
-A detecção de serviço é uma das técnicas mais usadas no nmap, permitindo por exemplo identificar vulnerabilidades de segurança ou simplesmente verificar se um serviço está rodando em uma porta específica.
+2 - Port scanning (-sS): Esta opção permite que os usuários descubram quais portas estão abertas em um host. Ele utiliza uma técnica de exploração conhecida como SYN scan para enviar pacotes SYN para as portas e analisar as respostas.
 
-A flag sV habilita detecção de serviço, retornando informações sobre serviços e versões.
 
-# nmap -sV scanme.nmap.org
+3 - Version detection (-sV): Esta opção permite que os usuários descubram quais serviços e aplicativos estão sendo executados em um host, bem como suas versões. Isso pode ajudar os usuários a identificar vulnerabilidades conhecidas em serviços específicos.
 
-3 – Usar o Modo Agressivo
 
-O modo agressivo é um modo de operação especial do nmap que é ativado com o uso da flag A, habilitando a detecção de S.O., versão, escaneamento de script e traceroute:
+4 - OS detection (-O): Esta opção permite que os usuários determinem qual sistema operacional está sendo executado em um host. Isso pode ajudar a identificar vulnerabilidades específicas do sistema operacional e personalizar as varreduras.
 
-# nmap -A localhost
 
-4 – Encontrar hosts ativos na rede
 
-Podemos enumerar ou monitorar alvos ativos, usando a flag P (ping scanning):
+5 - Scripting engine (--script): O Nmap possui um mecanismo de script que permite aos usuários escrever e executar scripts personalizados durante as varreduras. Esses scripts podem ajudar a identificar vulnerabilidades específicas ou executar ações automatizadas em hosts ou serviços.
 
-# sudo nmap -sP 192.168.1.1/24
 
-5 – Escanear portas específicas na rede
 
-Podemos escanear uma porta ou grupo de portas específicas com a flag -p
-
-# sudo nmap -p80 192.168.1.1/24
-
-Outras formas de escanear portas específicas:
-
-Lista de portas:
-
-# sudo nmap -p80, 443 192.168.1.1/24
-Faixa de portas:
-
-# sudo nmap -p1-200 192.168.1.1/24
-Todas as portas:
-
-# sudo nmap -p- 192.168.1.1/24
-Portas específicas por protocolos:
-
-# sudo nmap -pT:22,U:53 192.168.1.1/24
-Por nome de serviço:
-
-# sudo nmap -p ftp 192.168.1.1/24
-
-ISTO E O BASICO, ESTUDE SOBRE E USE COMO PAINEL APENAS''')
+ISTO E O BASICO, ESTUDE SOBRE E USE COMO PAINEL!''')
 print('')
+print('======================~(CY㉿LUGH!)~======================')
 print('')
-print('USE COM MODERAÇAO!')
